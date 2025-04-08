@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .lotto-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+  
+  .lotto-container h1 {
+    text-align: center;
+    background-color: #7eaed7;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .purchase-area,
+  .purchased-area,
+  .result-area {
+    margin-bottom: 30px;
+  }
+  
+  .purchase-area h2,
+  .purchased-area h2,
+  .result-area h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  button {
+    background: #7eaed7;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button.disabled {
+    background: gray;
+    cursor: not-allowed;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: left;
+  }
+  
+  .numbers, #winning-numbers, #purchased-numbers, #match-result {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333;
+    white-space: pre-wrap;
+  }
+  
+  /* 🌈 번호 공 스타일 */
+  .number-ball {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 5px;
+    border-radius: 50%;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .purchased-area,
+  .result-area {
+    display: none;
+  }

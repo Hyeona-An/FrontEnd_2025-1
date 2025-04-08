@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>로또 번호 생성기</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <section class="lotto-container">
+    <h1>로또 번호 생성기</h1>
+
+    <div class="purchase-area">
+      <h2>로또 구매하기</h2>
+      <input type="number" id="purchase-count" placeholder="구매 수량 입력" min="1" />
+      <p>총액: <span id="total-price">0</span>원 (1장당 1,000원)</p>
+      <button id="purchase-btn">구매하기</button>
+    </div>
+
+    <div class="purchased-area">
+      <h2>내가 구매한 번호</h2>
+      <div id="purchased-numbers">-</div>
+      <div id="match-result">-</div>
+    </div>
+
+    <div class="result-area">
+      <h2>이번 주 당첨 번호</h2>
+      <div class="numbers" id="winning-numbers">-</div>
+      <button id="generate-btn" class="disabled" disabled>번호 생성하기</button>
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
