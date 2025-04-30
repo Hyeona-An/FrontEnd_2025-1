@@ -1,0 +1,73 @@
+body {
+    font-family: 'Gowun Dodum', Arial, sans-serif;
+    background-color: #E6F7FF;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-weight: 900;
+    font-size: 3.0rem;
+    margin-bottom: 0.3rem;
+    color: #003366;
+  }
+  
+  .subtitle {
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  input[type="text"] {
+    padding: 11px 15px;
+    font-size: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 250px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #5d93b8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005FA3;
+  }
+  
+
+  #result {
+    margin-top: 30px;
+    background: white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #result img {
+    max-width: 100%;
+    margin-top: 15px;
+    border-radius: 12px;
+  }
+  
+  #result h2 {
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  #result p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
